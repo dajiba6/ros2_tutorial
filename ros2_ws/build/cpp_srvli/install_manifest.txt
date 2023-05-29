@@ -1,0 +1,17 @@
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/lib/cpp_srvli/server
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/lib/cpp_srvli/client
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/ament_index/resource_index/package_run_dependencies/cpp_srvli
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/ament_index/resource_index/parent_prefix_path/cpp_srvli
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/environment/ament_prefix_path.sh
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/environment/ament_prefix_path.dsv
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/environment/path.sh
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/environment/path.dsv
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/local_setup.bash
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/local_setup.sh
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/local_setup.zsh
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/local_setup.dsv
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/package.dsv
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/ament_index/resource_index/packages/cpp_srvli
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/cmake/cpp_srvliConfig.cmake
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/cmake/cpp_srvliConfig-version.cmake
+/home/cyn/ros2/ros2_ws/install/cpp_srvli/share/cpp_srvli/package.xml

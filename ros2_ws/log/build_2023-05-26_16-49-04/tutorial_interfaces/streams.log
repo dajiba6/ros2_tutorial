@@ -1,0 +1,71 @@
+[0.011s] Invoking command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces
+[0.055s] -- The C compiler identification is GNU 9.4.0
+[0.099s] -- The CXX compiler identification is GNU 9.4.0
+[0.102s] -- Check for working C compiler: /usr/bin/cc
+[0.158s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.159s] -- Detecting C compiler ABI info
+[0.220s] -- Detecting C compiler ABI info - done
+[0.235s] -- Detecting C compile features
+[0.235s] -- Detecting C compile features - done
+[0.239s] -- Check for working CXX compiler: /usr/bin/c++
+[0.341s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.342s] -- Detecting CXX compiler ABI info
+[0.443s] -- Detecting CXX compiler ABI info - done
+[0.460s] -- Detecting CXX compile features
+[0.460s] -- Detecting CXX compile features - done
+[0.463s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.497s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.497s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.679s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.684s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.744s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.768s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.828s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.897s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.925s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[1.069s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[1.069s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.069s]   tutorial_interfaces --arguments-file
+[1.069s]   /home/cyn/ros2/ros2_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[1.069s]   --output-dir
+[1.069s]   /home/cyn/ros2/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[1.069s]   --output-file
+[1.069s]   /home/cyn/ros2/ros2_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[1.069s]   returned error code 1:
+[1.069s] 
+[1.069s]   Error processing 'geometry_msgs/point center' of
+[1.069s]   'tutorial_interfaces/Sphere': ''point' is an invalid message name.  It
+[1.069s]   should have the pattern '^[A-Z][A-Za-z0-9]*$''
+[1.069s] 
+[1.069s]   Traceback (most recent call last):
+[1.069s] 
+[1.070s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[1.070s]       return _run_code(code, main_globals, None,
+[1.070s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[1.070s]       exec(code, run_globals)
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.070s]       sys.exit(main())
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.070s]       abs_idl_file = convert_to_idl(
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.070s]       return convert_msg_to_idl(
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.070s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[1.070s]       Type(type_string, context_package_name=pkg_name),
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[1.070s]       super(Type, self).__init__(
+[1.070s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[1.070s]       raise InvalidResourceName(
+[1.070s] 
+[1.071s]   rosidl_adapter.parser.InvalidResourceName: 'point' is an invalid message
+[1.071s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.071s] 
+[1.071s] Call Stack (most recent call first):
+[1.071s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[1.071s]   CMakeLists.txt:22 (rosidl_generate_interfaces)
+[1.071s] 
+[1.071s] 
+[1.071s] -- Configuring incomplete, errors occurred!
+[1.071s] See also "/home/cyn/ros2/ros2_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[1.076s] Invoked command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces

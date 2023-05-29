@@ -1,0 +1,268 @@
+[0.012s] Invoking command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces
+[0.023s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[0.042s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.042s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.199s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.202s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.298s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.364s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.390s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.533s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[0.724s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.810s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.832s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[0.833s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[0.855s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[0.855s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.855s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[0.855s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[0.873s] -- Found PythonExtra: .so  
+[1.009s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.023s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.025s] -- Added test 'lint_cmake' to check CMake code style
+[1.026s] -- Added test 'xmllint' to check XML markup files
+[1.030s] -- Configuring done
+[1.079s] -- Generating done
+[1.081s] -- Build files have been written to: /home/cyn/ros2/ros2_ws/build/tutorial_interfaces
+[1.087s] Invoked command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/tutorial_interfaces -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces
+[1.089s] Invoking command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[1.122s] [35m[1mScanning dependencies of target tutorial_interfaces__cpp[0m
+[1.122s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.132s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.364s] [  4%] Built target tutorial_interfaces__cpp
+[1.376s] [  8%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[1.377s] [  8%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[1.377s] [ 10%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[1.391s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_generator_c[0m
+[1.403s] [ 12%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/sphere__functions.c.o[0m
+[1.405s] [ 14%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/msg/detail/num__functions.c.o[0m
+[1.405s] [ 17%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_generator_c.dir/rosidl_generator_c/tutorial_interfaces/srv/detail/add_three_ints__functions.c.o[0m
+[1.451s] [ 19%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_generator_c.so[0m
+[1.484s] [ 19%] Built target tutorial_interfaces__rosidl_generator_c
+[1.493s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[1.493s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[1.571s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_cpp[0m
+[1.586s] [ 25%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.587s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.587s] [ 29%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.591s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_cpp[0m
+[1.604s] [ 31%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/num__type_support.cpp.o[0m
+[1.606s] [ 34%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/msg/detail/sphere__type_support.cpp.o[0m
+[1.606s] [ 36%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp.o[0m
+[1.631s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[1.654s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/num__type_support.cpp.o[0m
+[1.654s] [ 40%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/msg/detail/dds_fastrtps/sphere__type_support.cpp.o[0m
+[1.654s] [ 42%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/tutorial_interfaces/srv/detail/dds_fastrtps/add_three_ints__type_support.cpp.o[0m
+[1.762s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c[0m
+[1.778s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/num__type_support.cpp.o[0m
+[1.778s] [ 46%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/msg/sphere__type_support.cpp.o[0m
+[1.816s] [ 48%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/tutorial_interfaces/srv/add_three_ints__type_support.cpp.o[0m
+[1.837s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c[0m
+[1.854s] [ 51%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/num__type_support.c.o[0m
+[1.855s] [ 53%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/msg/detail/sphere__type_support.c.o[0m
+[1.856s] [ 55%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_c.so[0m
+[1.892s] [ 57%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/tutorial_interfaces/srv/detail/add_three_ints__type_support.c.o[0m
+[1.913s] [ 57%] Built target tutorial_interfaces__rosidl_typesupport_c
+[1.924s] [ 59%] [32m[1mLinking C shared library libtutorial_interfaces__rosidl_typesupport_introspection_c.so[0m
+[1.956s] [ 59%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c
+[1.956s] [ 61%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_cpp.so[0m
+[1.972s] [ 63%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[1.994s] [ 63%] Built target tutorial_interfaces__rosidl_typesupport_cpp
+[2.030s] [ 63%] Built target tutorial_interfaces__rosidl_typesupport_introspection_cpp
+[2.097s] [ 65%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.168s] [ 65%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.177s] [ 68%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.392s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c[0m
+[2.409s] [ 70%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/num__type_support_c.cpp.o[0m
+[2.409s] [ 72%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/msg/detail/sphere__type_support_c.cpp.o[0m
+[2.409s] [ 74%] [32mBuilding CXX object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/tutorial_interfaces/srv/detail/add_three_ints__type_support_c.cpp.o[0m
+[2.683s] [ 76%] [32m[1mLinking CXX shared library libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[2.754s] [ 76%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c
+[2.762s] [35m[1mScanning dependencies of target tutorial_interfaces[0m
+[2.770s] [ 76%] Built target tutorial_interfaces
+[2.779s] [35m[1mScanning dependencies of target tutorial_interfaces__py[0m
+[2.787s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[3.213s] [ 78%] Built target tutorial_interfaces__py
+[3.221s] [35m[1mScanning dependencies of target tutorial_interfaces__python[0m
+[3.239s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_sphere_s.c.o[0m
+[3.240s] [ 82%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/msg/_num_s.c.o[0m
+[3.240s] [ 85%] [32mBuilding C object CMakeFiles/tutorial_interfaces__python.dir/rosidl_generator_py/tutorial_interfaces/srv/_add_three_ints_s.c.o[0m
+[3.312s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/libtutorial_interfaces__python.so[0m
+[3.349s] [ 87%] Built target tutorial_interfaces__python
+[3.358s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_c__pyext[0m
+[3.358s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[3.358s] [35m[1mScanning dependencies of target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[3.372s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[3.372s] [ 91%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[3.373s] [ 93%] [32mBuilding C object CMakeFiles/tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/tutorial_interfaces/_tutorial_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[3.442s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.443s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.443s] [100%] [32m[1mLinking CXX shared library rosidl_generator_py/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[3.476s] [100%] Built target tutorial_interfaces__rosidl_typesupport_introspection_c__pyext
+[3.476s] [100%] Built target tutorial_interfaces__rosidl_typesupport_c__pyext
+[3.502s] [100%] Built target tutorial_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[3.511s] Invoked command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/tutorial_interfaces -- -j12 -l12
+[3.608s] Invoking command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/tutorial_interfaces
+[3.625s] -- Install configuration: ""
+[3.626s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/rosidl_interfaces/tutorial_interfaces
+[3.626s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.627s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.627s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.627s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.h
+[3.627s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__functions.c
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.h
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.h
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.h
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.628s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.h
+[3.629s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.c
+[3.629s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.h
+[3.629s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.h
+[3.629s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.h
+[3.629s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.h
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__functions.h
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__functions.c
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_generator_c__visibility_control.h
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.h
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.h
+[3.630s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.sh
+[3.631s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/library_path.dsv
+[3.631s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so
+[3.632s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_generator_c.so" to ""
+[3.633s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.633s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.633s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.634s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_c.h
+[3.634s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.634s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.634s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.634s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_c.h
+[3.634s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_c.h
+[3.634s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so
+[3.635s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[3.635s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.635s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.635s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/dds_fastrtps
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[3.636s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.636s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/dds_fastrtps
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_fastrtps_cpp.hpp
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_fastrtps_cpp.hpp
+[3.636s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.637s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[3.637s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[3.637s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.638s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.638s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.638s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.c
+[3.638s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_c.h
+[3.638s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.638s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.638s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.c
+[3.639s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_c.h
+[3.639s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.c
+[3.639s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_c.h
+[3.639s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.639s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so
+[3.640s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[3.640s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so
+[3.641s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_c.so" to ""
+[3.641s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.641s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.641s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.641s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__traits.hpp
+[3.641s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__builder.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__struct.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/add_three_ints.hpp
+[3.642s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.642s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__builder.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__traits.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__struct.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__builder.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__traits.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/sphere.hpp
+[3.642s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp
+[3.643s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces
+[3.643s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv
+[3.643s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__rosidl_typesupport_introspection_cpp.hpp
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/srv/detail/add_three_ints__type_support.cpp
+[3.643s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg
+[3.643s] -- Up-to-date: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__type_support.cpp
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__rosidl_typesupport_introspection_cpp.hpp
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__type_support.cpp
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/sphere__rosidl_typesupport_introspection_cpp.hpp
+[3.643s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so
+[3.644s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[3.644s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so
+[3.644s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__rosidl_typesupport_cpp.so" to ""
+[3.644s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.sh
+[3.644s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/pythonpath.dsv
+[3.644s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py
+[3.670s] Compiling '/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/__init__.py'...
+[3.673s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg
+[3.673s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/__init__.py
+[3.673s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere_s.c
+[3.673s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num.py
+[3.673s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_sphere.py
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/msg/_num_s.c
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/__init__.py
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints.py
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/srv/_add_three_ints_s.c
+[3.674s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[3.674s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.675s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[3.675s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.675s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[3.676s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages/tutorial_interfaces/tutorial_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[3.676s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so
+[3.676s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/libtutorial_interfaces__python.so" to ""
+[3.676s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.idl
+[3.676s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.idl
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.idl
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Num.msg
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/msg/Sphere.msg
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts.srv
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Request.msg
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/srv/AddThreeInts_Response.msg
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/package_run_dependencies/tutorial_interfaces
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/parent_prefix_path/tutorial_interfaces
+[3.677s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.sh
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/ament_prefix_path.dsv
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.sh
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/environment/path.dsv
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.bash
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.sh
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.zsh
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/local_setup.dsv
+[3.678s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/ament_index/resource_index/packages/tutorial_interfaces
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport.cmake
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cExport-noconfig.cmake
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport.cmake
+[3.679s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_generator_cppExport.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake-extras.cmake
+[3.680s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake/tutorial_interfacesConfig-version.cmake
+[3.681s] -- Installing: /home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.xml
+[3.684s] Invoked command in '/home/cyn/ros2/ros2_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/tutorial_interfaces

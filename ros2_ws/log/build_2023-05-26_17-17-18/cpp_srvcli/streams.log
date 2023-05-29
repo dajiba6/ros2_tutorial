@@ -1,0 +1,84 @@
+[0.014s] Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/cpp_srvcli
+[0.058s] -- The C compiler identification is GNU 9.4.0
+[0.102s] -- The CXX compiler identification is GNU 9.4.0
+[0.105s] -- Check for working C compiler: /usr/bin/cc
+[0.163s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.164s] -- Detecting C compiler ABI info
+[0.224s] -- Detecting C compiler ABI info - done
+[0.233s] -- Detecting C compile features
+[0.234s] -- Detecting C compile features - done
+[0.236s] -- Check for working CXX compiler: /usr/bin/c++
+[0.304s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.305s] -- Detecting CXX compiler ABI info
+[0.373s] -- Detecting CXX compiler ABI info - done
+[0.383s] -- Detecting CXX compile features
+[0.383s] -- Detecting CXX compile features - done
+[0.385s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.407s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.407s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.560s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.595s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.600s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.661s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.684s] -- Found FastRTPS: /opt/ros/foxy/include  
+[0.747s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.792s] -- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.793s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.794s] -- Looking for pthread.h
+[0.853s] -- Looking for pthread.h - found
+[0.853s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.921s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[0.921s] -- Looking for pthread_create in pthreads
+[0.969s] -- Looking for pthread_create in pthreads - not found
+[0.969s] -- Looking for pthread_create in pthread
+[1.024s] -- Looking for pthread_create in pthread - found
+[1.025s] -- Found Threads: TRUE  
+[1.151s] -- Found example_interfaces: 0.9.1 (/opt/ros/foxy/share/example_interfaces/cmake)
+[1.242s] -- Found tutorial_interfaces: 0.0.0 (/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/share/tutorial_interfaces/cmake)
+[1.332s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.389s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.390s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.390s] -- Configured cppcheck include dirs: 
+[1.390s] -- Configured cppcheck exclude dirs and/or files: 
+[1.391s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.391s] -- Configured cpplint exclude dirs and/or files: 
+[1.392s] -- Added test 'lint_cmake' to check CMake code style
+[1.393s] -- Added test 'uncrustify' to check C / C++ code style
+[1.393s] -- Configured uncrustify additional arguments: 
+[1.393s] -- Added test 'xmllint' to check XML markup files
+[1.396s] -- Configuring done
+[1.405s] -- Generating done
+[1.406s] -- Build files have been written to: /home/cyn/ros2/ros2_ws/build/cpp_srvcli
+[1.412s] Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/cpp_srvcli -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/cpp_srvcli
+[1.415s] Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[1.448s] [35m[1mScanning dependencies of target server[0m
+[1.448s] [35m[1mScanning dependencies of target client[0m
+[1.477s] [ 50%] [32mBuilding CXX object CMakeFiles/client.dir/src/add_two_ints_client.cpp.o[0m
+[1.477s] [ 50%] [32mBuilding CXX object CMakeFiles/server.dir/src/add_two_ints_server.cpp.o[0m
+[3.020s] [ 75%] [32m[1mLinking CXX executable server[0m
+[3.127s] [ 75%] Built target server
+[3.194s] [100%] [32m[1mLinking CXX executable client[0m
+[3.302s] [100%] Built target client
+[3.310s] Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/cpp_srvcli -- -j12 -l12
+[3.342s] Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/cpp_srvcli
+[3.349s] -- Install configuration: ""
+[3.350s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server
+[3.350s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/server" to ""
+[3.350s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client
+[3.351s] -- Set runtime path of "/home/cyn/ros2/ros2_ws/install/cpp_srvcli/lib/cpp_srvcli/client" to ""
+[3.351s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/package_run_dependencies/cpp_srvcli
+[3.351s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/parent_prefix_path/cpp_srvcli
+[3.351s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.sh
+[3.351s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/ament_prefix_path.dsv
+[3.351s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.sh
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/environment/path.dsv
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.bash
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.sh
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.zsh
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/local_setup.dsv
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.dsv
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/ament_index/resource_index/packages/cpp_srvcli
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig.cmake
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/cmake/cpp_srvcliConfig-version.cmake
+[3.352s] -- Installing: /home/cyn/ros2/ros2_ws/install/cpp_srvcli/share/cpp_srvcli/package.xml
+[3.355s] Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvcli' returned '0': AMENT_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces:/opt/ros/foxy LD_LIBRARY_PATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/:/home/cyn/CARLA/carla_leadboard/scenario_runner:/home/cyn/CARLA/carla_leadboard/leaderboard:/home/cyn/CARLA/carla_leadboard/carla/PythonAPI/carla/dist/carla-0.9.13-py3.7-linux-x86_64.egg /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/cpp_srvcli
