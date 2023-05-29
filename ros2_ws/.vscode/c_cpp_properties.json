@@ -1,0 +1,28 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/cyn/ros2/ros2_ws/install/tutorial_interfaces/include/**",
+        "/home/cyn/ros2/ros2_ws/install/turtlesim/include/**",
+        "/opt/ros/foxy/include/**",
+        "/home/cyn/ros2/ros2_ws/src/cpp_pubsub/include/**",
+        "/home/cyn/ros2/ros2_ws/src/cpp_srvcli/include/**",
+        "/home/cyn/ros2/ros2_ws/src/more_interfaces/include/**",
+        "/home/cyn/ros2/ros2_ws/src/my_package/include/**",
+        "/home/cyn/ros2/ros2_ws/src/ros_tutorials/turtlesim/include/**",
+        "/home/cyn/ros2/ros2_ws/src/tutorial_interfaces/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

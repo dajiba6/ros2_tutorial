@@ -18,6 +18,7 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
+find_package(rclcpp REQUIRED)
 # uncomment the following section in order to fill in
 # further dependencies manually.
 # find_package(<dependency> REQUIRED)
@@ -41,5 +42,14 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 ament_export_dependencies(rosidl_default_runtime)
+add_executable(publish_address_book src/publish_address_book.cpp)# 指定构建可执行文件源码的位置
+ament_target_dependencies(publish_address_book rclcpp)# 指定构建可执行文件需要的依赖
+
+install(TARGETS
+    publish_address_book
+  DESTINATION lib/${PROJECT_NAME})# 指定构建可执行文件存放的位置
+
+  rosidl_target_interfaces(publish_address_book
+  ${PROJECT_NAME} "rosidl_typesupport_cpp")# 为了使用同一个package中构建的message
 
 ament_package()
