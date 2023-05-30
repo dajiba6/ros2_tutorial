@@ -1,6 +1,0 @@
-Invoking command in '/home/cyn/ros2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/my_package
-Invoked command in '/home/cyn/ros2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/my_package
-Invoking command in '/home/cyn/ros2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/my_package -- -j12 -l12
-Invoked command in '/home/cyn/ros2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/my_package -- -j12 -l12
-Invoking command in '/home/cyn/ros2/ros2_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/my_package
-Invoked command in '/home/cyn/ros2/ros2_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/my_package

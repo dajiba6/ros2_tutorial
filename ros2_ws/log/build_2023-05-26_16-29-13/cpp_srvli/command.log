@@ -1,6 +1,0 @@
-Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/cpp_srvli -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/cpp_srvli
-Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/cpp_srvli -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/install/cpp_srvli
-Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/cpp_srvli -- -j12 -l12
-Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --build /home/cyn/ros2/ros2_ws/build/cpp_srvli -- -j12 -l12
-Invoking command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/cpp_srvli
-Invoked command in '/home/cyn/ros2/ros2_ws/build/cpp_srvli' returned '0': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake --install /home/cyn/ros2/ros2_ws/build/cpp_srvli

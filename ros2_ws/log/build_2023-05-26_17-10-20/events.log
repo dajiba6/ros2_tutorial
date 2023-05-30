@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000087] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
-[0.000324] (-) JobUnselected: {'identifier': 'cpp_srvli'}
-[0.000346] (-) JobUnselected: {'identifier': 'my_package'}
-[0.000360] (-) JobUnselected: {'identifier': 'turtlesim'}
-[0.000376] (-) JobUnselected: {'identifier': 'tutorial_interfaces'}
-[0.000606] (-) EventReactorShutdown: {}
