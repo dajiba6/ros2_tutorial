@@ -1,0 +1,1 @@
+Invoking command in '/home/cyn/ros2/ros2_ws/src/build/polygon_base': CMAKE_PREFIX_PATH=/opt/ros/foxy /usr/bin/cmake /home/cyn/ros2/ros2_ws/src/polygon_base -DCMAKE_INSTALL_PREFIX=/home/cyn/ros2/ros2_ws/src/install/polygon_base
